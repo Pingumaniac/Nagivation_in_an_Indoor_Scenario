@@ -1,7 +1,7 @@
 # Nagivation_in_an_Indoor_Scenario
 CS 5891 Special Topics - The Algorithms of Robotics Final Project
 
-## About Members and Roles
+## About Members 
 
 #### Young-jae Moon
 * M.Sc. in computer science and Engineering Graduate Fellowship recipient at Vanderbilt University (January 2023 - December 2024).
