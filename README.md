@@ -58,4 +58,10 @@ rosrun turtlebot3_slam_navigation_node turtlebot3_slam_navigation_node.py
 
 Enter the starting and target room names when prompted, and observe the robot navigating between the rooms and returning to the starting room.
 
-## Instructions for testing out our code
+This completes the navigation part of the home service mission using Python for the Turtleot 3 Waffle Pi in the "house" world.
+
+## Instructions for running the SLAM
+
+source devel/setup.bash
+export TURTLEBOT3_MODEL=burger
+roslaunch turtlebot_navigation_and_mapping explore.launch
