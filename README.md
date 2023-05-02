@@ -23,18 +23,19 @@ CS 5891 Special Topics - The Algorithms of Robotics Final Project
 
 ## Instructions for launching the simulation of the robot
 
-1. After downloading this GitHub repository, unzip it.
-2. Open the terminal and move to the corresponding workspace. For example,
+1. Follow the instructions for setting up Turtlebot 3 for ROS Melodic as shown in the (Section 6.1 and 7.1 of the Tutorial) - https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#gazebo-simulation 
+2. After downloading this GitHub repository, unzip it.
+3. Open the terminal and move to the corresponding workspace. For example,
 ```
 cd catkin_ws/src
 ```
 
-3. Then, source the setup.bash file.
+4. Then, source the setup.bash file.
 ```
 source devel/setup.bash
 ```
 
-4. We can follow the Tutorial to launch the TurtleBot 3 House map with the robot.
+5. We can follow the Tutorial to launch the TurtleBot 3 House map with the robot.
 ```
 export TURTLEBOT3_MODEL=waffle_pi
 roslaunch turtlebot3_gazebo turtlebot3_house.launch
