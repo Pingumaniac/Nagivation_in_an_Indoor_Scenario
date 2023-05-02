@@ -62,6 +62,8 @@ This completes the navigation part of the home service mission using Python for 
 
 ## Instructions for running the SLAM
 
+```
 source devel/setup.bash
 export TURTLEBOT3_MODEL=burger
 roslaunch turtlebot_navigation_and_mapping explore.launch
+```
